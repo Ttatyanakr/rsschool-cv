@@ -1,8 +1,8 @@
 ## Name: Tatyana Krotova
 
 **Contact info:**
-*telegram: t_nskaya
-e-mail: ttatyanakr@yandex.ru;*
+- *telegram: t_nskaya*
+- *e-mail: ttatyanakr@yandex.ru;*
 
 **About myself:** 28 y.o., self-taught programmer, book and film enthusiast, lover of tasty food.
 
