@@ -1,30 +1,31 @@
-Name: Tatyana Krotova
-Contact info: 
-	telegram: t_nskaya
-	e-mail: ttatyanakr@yandex.ru;
+## Name: Tatyana Krotova
 
-About myself: 28 y.o., self-taught programmer, book and film enthusiast, lover of tasty food.
+**Contact info:**
+*telegram: t_nskaya
+e-mail: ttatyanakr@yandex.ru;*
 
-Work experience:
-	2014-2015 - Proofreader;
-	2015-2017 - SEO-specialist/content-manager;
-	2017-2019 - Internet marketing specialist
+**About myself:** 28 y.o., self-taught programmer, book and film enthusiast, lover of tasty food.
 
-Personal qualities: reliable, accurate, cooperative, flexible, resourceful.
+**Work experience:**
+- 2014-2015 - Proofreader;
+- 2015-2017 - SEO-specialist/content-manager;
+- 2017-2019 - Internet marketing specialist
 
-Goals for the next months: 
-	finish RS School;
-	get front-end developer certificate;
-	find my first job as front-end developer.
+**Personal qualities:** reliable, accurate, cooperative, flexible, resourceful.
 
-Skills:
-	HTML, CSS, Basic JS;
-	Git, GitHub;
-	VS Code, Figma, Photoshop;
-	SEO, Wordpress, Joomla, Drupal, etc.
+**Goals for the next months:**
+- finish RS School;
+- get front-end developer certificate;
+- find my first job as front-end developer.
 
-Languages: 
-	Native Russian;
-	English - A2.
+**Skills:**
+- HTML, CSS, Basic JS;
+- Git, GitHub;
+- VS Code, Figma, Photoshop;
+- SEO, Wordpress, Joomla, Drupal, etc.
 
-Code examples and course sertificate: will be soon...
+**Languages:** 
+- Native Russian;
+- English - A2.
+
+**Code examples and course sertificate:** will be soon...
