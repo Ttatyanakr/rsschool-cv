@@ -1,0 +1,82 @@
+html {
+    width: 100%;
+    height: 100%;
+    background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=cfdde3ff&noise=7e85d6&density=17&opacity=12);
+}
+
+body {
+    max-width: 1024px;
+    margin: 65px auto 65px auto;
+    height: 100%;
+    padding: 60px 105px;
+    background-image: url(http://api.thumbr.it/whitenoise-361x370.png?background=f5f5f5ff&noise=d0b4d9&density=17&opacity=12);
+    box-shadow: 0 0 20px gray;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: rgb(26, 28, 31);
+}
+
+.cv-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+svg {
+    width: 155px;
+    margin-right: 150px;
+}
+
+.hidden {
+    display: none;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+h2 .name {
+    font-weight: 400;
+}
+
+ul {
+    list-style: none;
+}
+
+.contact-list i {
+    margin-right: 15px;
+}
+
+.contact-list a {
+    color: black;
+    text-decoration: none;
+}
+
+.contact-list a:hover {
+    color: #6fb0cc;
+}
+
+.header-line {
+    border: none;
+    height: 2px;
+    background-color: #cfdde3;
+}
+
+.cv-body {
+    margin-top: 40px;
+    margin-left: 80px;
+}
+
+.dt-like {
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.cv-body li::before {
+    content: "\2022";
+    color: #6fb0cc;
+    font-weight: bold;
+    display: inline-block;
+    width: 15px;
+}
