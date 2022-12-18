@@ -1,1 +1,250 @@
+html {
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/blue-snow.png);
+}
 
+body {
+    max-width: 960px;
+    margin: 75px auto;
+    padding: 60px 105px;
+    background: white;
+    box-shadow: 0 0 20px gray;
+
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: rgb(26, 28, 31);
+}
+
+.burger_menu {
+    /* display: none; */
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    max-width: 1px;
+    max-height: 1px;
+}
+
+.cv-letter {
+    margin: 20px;
+    display: flex;
+}
+
+.contacts {
+    padding: 25px 20px;
+    background:#6fb0cc;
+    border-radius: 3px;
+}
+
+.contacts .h3-like {
+    color: white;
+    text-align: center;
+
+    margin-top: 25px;
+}
+
+.contacts .position-name {
+    color: white;
+    text-align: center;
+
+    padding-bottom: 10px;
+}
+
+.avatar {
+    width: 155px;
+    margin: 20px auto;
+}
+
+.h1-like {
+    display: none;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+}
+
+.contact ul {
+    padding-left: 0px;
+}
+
+.contact-list {
+    white-space: nowrap;
+}
+
+.contact-list i {
+    margin-right: 15px;
+}
+
+.contact-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.skills li::before {
+    content: "\2022";
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    width: 15px;
+}
+
+.project-link a,
+.my-github-link a {
+    color: #4c88a1;
+    text-decoration: none;
+}
+
+.contact-list a:hover, 
+.project-link a:hover {
+    color: #6fb0cc;
+}
+
+.header-line {
+    border: none;
+    height: 2px;
+    background-color: #cfdde3;
+}
+
+.cv-body {
+    margin-left: 50px;
+}
+
+.presentation,
+.about_myself,
+.code_examples {
+    margin-bottom: 35px;
+}
+
+.cv .h3-like {
+    padding-left: 10px;
+}
+
+.cv ul {
+    padding-left: 10px;
+}
+
+.h3-like {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.presentation {
+    padding: 25px 15px;
+    border-radius: 3px;
+    background: #b85629;
+    color: white;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+
+    height: 40px;
+
+    background: white;
+}
+
+.cv .nav-list {
+    padding-left: 0px;
+}
+
+.nav-list li {
+    height: 100%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.nav-list li:hover {
+ background: #6fb0cc;
+}
+
+.nav-list a {
+    color: #b85629;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.about_myself li::before,
+.projects li::before,
+.education li::before {
+    content: "\2022";
+    color: #6fb0cc;
+    font-weight: bold;
+    display: inline-block;
+    width: 15px;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.codeexample {
+    background: rgb(248, 248, 255);
+    margin-right: 80px;
+}
+
+.codeexample .inner-block {
+    margin-left: -160px;
+}
+
+.course-info {
+    display: flex;
+    justify-content:space-between;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 150px;
+}
+
+.my-github {
+    display: flex;
+    width: 150px;
+    height: 40px;
+
+    margin: 0;
+}
+
+.my-github::before {
+    /* display:inline-block; */
+    content: "";
+    width: 30px;
+    position: relative;
+    top:10px;
+    left: -20px;
+
+    background: url(https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+}
+
+.my-github::after {
+    content: "|";
+    font-size: 24px;
+    font-weight:500;
+
+    width: 15px;
+    position: relative;
+    right: -275px;
+    top: 5px;
+    color: #cfdde3;
+}
+
+.my-github-link {
+    margin: 0;
+
+    font-size: 16px;
+    font-weight:600;
+    line-height: 1.5;
+}
+
+.rs-logo {
+    /* margin: auto; */
+    width: 100px;
+    height: 40px;
+}
