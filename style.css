@@ -93,15 +93,21 @@ ul {
     width: 15px;
 }
 
+.sertificates-item a,
 .project-link a,
 .my-github-link a {
     color: #4c88a1;
     text-decoration: none;
 }
 
-.contact-list a:hover, 
+.contact-list a:hover {
+    text-decoration: underline;
+}
+
+.sertificates-item a:hover,
 .project-link a:hover {
     color: #6fb0cc;
+    text-decoration: underline;
 }
 
 .header-line {
@@ -114,6 +120,8 @@ ul {
     margin-left: 50px;
 }
 
+.education,
+.projects,
 .presentation,
 .about_myself,
 .code_examples {
@@ -144,10 +152,13 @@ ul {
     display: flex;
     list-style: none;
     justify-content: space-between;
+    font-weight: 600;
+    text-transform: uppercase;
 
     height: 40px;
 
     background: white;
+    
 }
 
 .cv .nav-list {
@@ -165,9 +176,12 @@ ul {
 }
 
 .nav-list a {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+
     color: #b85629;
     text-decoration: none;
-    vertical-align: middle;
 }
 
 .about_myself li::before,
@@ -183,6 +197,8 @@ ul {
 .nav-list {
     display: flex;
     list-style: none;
+    margin-top: 25px;
+    margin-bottom: 40px;
 }
 
 .codeexample {
